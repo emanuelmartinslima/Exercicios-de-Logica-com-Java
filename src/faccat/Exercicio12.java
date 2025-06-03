@@ -13,7 +13,7 @@ public class Exercicio12 {
 		
 		float celsius = (fahrenheit - 32) * 5 / 9;
 		
-		System.out.printf("\nFahrenheit: %.2f °F\nCelsius: %.2f °C", fahrenheit, celsius);
+		System.out.printf("\nFahrenheit: %.2f °F%nCelsius: %.2f °C", fahrenheit, celsius);
 		
 		scanner.close();
 	}

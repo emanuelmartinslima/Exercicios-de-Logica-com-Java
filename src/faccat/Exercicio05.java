@@ -14,7 +14,7 @@ public class Exercicio05 {
 		int antecessor = numero - 1;
 		int sucessor = numero + 1;
 		
-		System.out.printf("Número: %d\nAntecessor: %d\nSucessor: %d", numero, antecessor, sucessor);
+		System.out.printf("Número: %d%nAntecessor: %d%nSucessor: %d", numero, antecessor, sucessor);
 		
 		scanner.close();
 	}

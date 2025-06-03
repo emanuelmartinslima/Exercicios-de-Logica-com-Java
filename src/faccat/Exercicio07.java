@@ -17,7 +17,7 @@ public class Exercicio07 {
 		System.out.println("Digite a quantidade de dias passados desde o início do mês: ");
 		int dias = scanner.nextInt();
 		
-		System.out.printf("Anos: %d\nMeses: %d\nDias: %d", anos, meses, dias);
+		System.out.printf("Anos: %d%nMeses: %d%nDias: %d", anos, meses, dias);
 		
 		dias = anos * 365 + meses * 30 + dias;
 		

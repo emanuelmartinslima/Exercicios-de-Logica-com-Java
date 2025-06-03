@@ -16,7 +16,7 @@ public class Exercicio06 {
 		
 		float area = altura * base;
 		
-		System.out.printf("Altura: %.2f cm\nBase: %.2f cm\nÁrea: %.2f cm²", altura, base, area);
+		System.out.printf("Altura: %.2f cm%nBase: %.2f cm%nÁrea: %.2f cm²", altura, base, area);
 		
 		scanner.close();
 	}

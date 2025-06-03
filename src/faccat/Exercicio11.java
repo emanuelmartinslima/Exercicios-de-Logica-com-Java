@@ -25,7 +25,7 @@ public class Exercicio11 {
 		
 		salarioFinal = salarioFixo + (valorTotalVendas * percentualVendasEfetuadas / 100) + (numeroCarrosVendidos * comissaoPorCarro);
 		
-		System.out.printf("Salário Fixo: R$ %.2f\nValor Total de Vendas Efetuadas: R$ %.2f\nComissão Por Carro: R$ %.2f\nNúmero de Carros Vendidos: %d\nSalário Final: R$ %.2f", salarioFixo, valorTotalVendas, comissaoPorCarro, numeroCarrosVendidos, salarioFinal);
+		System.out.printf("Salário Fixo: R$ %.2f%nValor Total de Vendas Efetuadas: R$ %.2f%nComissão Por Carro: R$ %.2f%nNúmero de Carros Vendidos: %d%nSalário Final: R$ %.2f", salarioFixo, valorTotalVendas, comissaoPorCarro, numeroCarrosVendidos, salarioFinal);
 		
 		scanner.close();
 	}

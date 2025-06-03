@@ -24,7 +24,7 @@ public class Exercicio17 {
 			situacao = "Reprovado";
 		}
 		
-		System.out.printf("Média do Aluno: %.2f\nSituação do Aluno: %s", media, situacao);
+		System.out.printf("Média do Aluno: %.2f%nSituação do Aluno: %s", media, situacao);
 		
 		scanner.close();
 	}

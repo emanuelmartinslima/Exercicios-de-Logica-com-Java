@@ -14,11 +14,11 @@ public class Exercicio09 {
 		System.out.println("Digite o valor do percentual de reajuste do salário (em %): ");
 		float percentualReajuste = scanner.nextFloat();
 		
-		System.out.printf("Salário Antigo: R$ %.2f\nPercentual de Reajuste: %.2f %%", salario, percentualReajuste);
+		System.out.printf("Salário Antigo: R$ %.2f%nPercentual de Reajuste: %.2f %%", salario, percentualReajuste);
 		
 		salario = salario * (1 + (percentualReajuste / 100));
 		
-		System.out.printf("\nSalário Reajustado: %.2f", salario);
+		System.out.printf("%nSalário Reajustado: %.2f", salario);
 		
 		scanner.close();
 	}

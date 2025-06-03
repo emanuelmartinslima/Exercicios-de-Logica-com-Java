@@ -19,7 +19,7 @@ public class Exercicio13 {
 		
 		float mediaFinal = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10;
 		
-		System.out.printf("Nota 1: %.2f\nNota 2: %.2f\nNota 3: %.2f\nMédia Final: %.2f", nota1, nota2, nota3, mediaFinal);
+		System.out.printf("Nota 1: %.2f%nNota 2: %.2f%nNota 3: %.2f%nMédia Final: %.2f", nota1, nota2, nota3, mediaFinal);
 		
 		scanner.close();
 	}

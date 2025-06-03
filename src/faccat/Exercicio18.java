@@ -13,7 +13,7 @@ public class Exercicio18 {
 		
 		idade = anoAtual - anoNascimento;
 	
-		System.out.printf("Ano Atual: %d\nAno Nascimento: %d\nIdade: %d\n", anoAtual, anoNascimento, idade);
+		System.out.printf("Ano Atual: %d\nAno Nascimento: %d\nIdade: %d%n", anoAtual, anoNascimento, idade);
 		
 		if(idade >= 18) {
 			System.out.println("Situação: Pode Votar");

@@ -28,7 +28,7 @@ public class Exercicio08 {
 		
 		percentualVotosValidos = numeroVotosValidos * 100 / numeroVotosTotais;
 		
-		System.out.printf("Número de Votos\n\nTotal de Eleitores: %d\nVotos Brancos: %d\nVotos Nulos: %d\nVotos Válidos: %d\n\nPercentual de Votos\n\nVotos Brancos: %.2f %%\nVotos Nulos: %.2f %%\nVotos Válidos: %.2f %%", numeroVotosTotais, numeroVotosBrancos, numeroVotosNulos, numeroVotosValidos, percentualVotosBrancos, percentualVotosNulos, percentualVotosValidos);
+		System.out.printf("Número de Votos%n%nTotal de Eleitores: %d%nVotos Brancos: %d%nVotos Nulos: %d%nVotos Válidos: %d%n%nPercentual de Votos%n%nVotos Brancos: %.2f %% %nVotos Nulos: %.2f %% %nVotos Válidos: %.2f %%", numeroVotosTotais, numeroVotosBrancos, numeroVotosNulos, numeroVotosValidos, percentualVotosBrancos, percentualVotosNulos, percentualVotosValidos);
 		
 		scanner.close();
 	}

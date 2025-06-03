@@ -19,7 +19,7 @@ public class Exercício16 {
 		
 		float custoTotal = macasCompradas * precoMaca;
 		
-		System.out.printf("Maçãs Compradas: %d\nPreço Unitário: %.2f\nCusto Total: %.2f", macasCompradas, precoMaca, custoTotal);
+		System.out.printf("Maçãs Compradas: %d%nPreço Unitário: %.2f%nCusto Total: %.2f", macasCompradas, precoMaca, custoTotal);
 		
 		scanner.close();
 	}

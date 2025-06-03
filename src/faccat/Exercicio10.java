@@ -15,7 +15,7 @@ public class Exercicio10 {
 		
 		float custoFinal = custoFabrica + (custoFabrica * percentualDistribuidor / 100) + (custoFabrica * percentualImpostos / 100);		
 		
-		System.out.printf("Custo de Fábrica: R$ %.2f\nPercentual de Distribuidor: %.2f %%\nPercentual de Impostos: %.2f %%\nCusto Final: R$ %.2f", custoFabrica, percentualDistribuidor, percentualImpostos, custoFinal);
+		System.out.printf("Custo de Fábrica: R$ %.2f%nPercentual de Distribuidor: %.2f %% %nPercentual de Impostos: %.2f %% %nCusto Final: R$ %.2f", custoFabrica, percentualDistribuidor, percentualImpostos, custoFinal);
 		
 		scanner.close();
 	}
