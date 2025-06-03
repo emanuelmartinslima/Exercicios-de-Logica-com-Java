@@ -6,17 +6,15 @@ public class Exercicio05 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Cálculo de Área do Retângulo");
+		System.out.println("Apresentação de Antecessor e Sucessor");
 		
-		System.out.println("Digite o valor da altura do retângulo (em cm): ");
-		float altura = scanner.nextFloat();
+		System.out.println("Digite um número inteiro: ");
+		int numero = scanner.nextInt();
 		
-		System.out.println("Digite o valor da base do retângulo (em cm): ");
-		float base = scanner.nextFloat();
+		int antecessor = numero - 1;
+		int sucessor = numero + 1;
 		
-		float area = altura * base;
-		
-		System.out.printf("Altura: %.2f cm\nBase: %.2f cm\nÁrea: %.2f cm²", altura, base, area);
+		System.out.printf("Número: %d\nAntecessor: %d\nSucessor: %d", numero, antecessor, sucessor);
 		
 		scanner.close();
 	}
