@@ -1,4 +1,4 @@
-package exemplos;
+package exercicios;
 
 public class Cronometro {
 	public static void main(String[] args) {
