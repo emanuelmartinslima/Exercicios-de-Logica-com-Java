@@ -1,6 +1,6 @@
 package exemplos.metodos;
 
-public class MetodoRecursao {
+public class MetodoRecursivo {
 	static int soma(int numero) {
 		if(numero > 0) {
 			return numero + soma(numero - 1);
