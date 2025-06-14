@@ -9,15 +9,16 @@ public class Exercicio32 {
 		System.out.println("Verificar Vencedor de Partida");
 		
 		System.out.print("Digite o nome do primeiro time: ");
-		String nomeTime1 = scanner.next();
+		String nomeTime1 = scanner.nextLine();
 		
-		System.out.print("Digite número de gols marcados pelo primeiro time: ");
+		System.out.printf("Digite número de gols marcados pelo %s: ", nomeTime1);
 		int numeroGolsTime1 = scanner.nextInt();
+		scanner.nextLine();
 		
 		System.out.print("Digite o nome do segundo time: ");
-		String nomeTime2 = scanner.next();
+		String nomeTime2 = scanner.nextLine();
 		
-		System.out.print("Digite o número de gols marcados pelo segundo time: ");
+		System.out.printf("Digite o número de gols marcados pelo %s: ", nomeTime2);
 		int numeroGolsTime2 = scanner.nextInt();
 		
 		String resultado = "";
