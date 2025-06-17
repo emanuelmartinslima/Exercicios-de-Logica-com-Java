@@ -2,18 +2,19 @@ package exemplos.interfaceGrafica;
 
 import javax.swing.*;
 
-public class Exemplo02 extends JFrame{
-	private JFrame j;
+public class Exemplo02 {
+	private JFrame f;
 	
 	Exemplo02(){
 		JButton button = new JButton("Clique aqui!");
 		
 		button.setBounds(190, 210, 100, 40);
-		add(button);
+		f.add(button);
 		
-		setSize(500, 500);
-		setLayout(null);
-		setVisible(true);
+		f.setTitle("Exemplo 02");
+		f.setSize(500, 500);
+		f.setLayout(null);
+		f.setVisible(true);
 	}
 	
 	public static void main(String[] args) {
