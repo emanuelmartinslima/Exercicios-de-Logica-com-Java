@@ -11,7 +11,7 @@ public class ExercicioL01A {
 		System.out.print("Digite a temperatura (em °C): ");
 		float celsius = scanner.nextFloat();
 		
-		float fahrenheit = (9 * celsius + 160) / 5;
+		float fahrenheit = (9f * celsius + 160f) / 5f;
 		
 		System.out.printf("%nCelsius: %.2f °C%nFahrenheit: %.2f °F", celsius, fahrenheit);
 		
